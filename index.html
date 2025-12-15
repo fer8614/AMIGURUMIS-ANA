@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amigurumis Mágicos - Curso Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#fff0f5',
+                100: '#ffe1ec',
+                200: '#ffc2d9',
+                300: '#ff94b8',
+                400: '#ff5c91',
+                500: '#ff2e6e', // Primary Pink
+                600: '#e60f50',
+                700: '#c2063e',
+                800: '#a10835',
+                900: '#850d31',
+              },
+              secondary: {
+                50: '#f5f3ff',
+                100: '#ede9fe',
+                500: '#8b5cf6', // Magic Purple
+                600: '#7c3aed',
+                900: '#4c1d95',
+              }
+            },
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+              heading: ['Fredoka', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Nunito', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Fredoka', sans-serif;
+      }
+      .scroll-smooth {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-50 text-gray-800 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
